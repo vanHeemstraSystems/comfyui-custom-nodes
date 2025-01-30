@@ -1,5 +1,7 @@
 comfyui-custom-nodes
 
+- [References](./REFERENCES.md)
+
 # ComfyUI Custom Nodes
 
 ## 100 - NX Monorepo Node

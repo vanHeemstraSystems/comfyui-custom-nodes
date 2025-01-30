@@ -37,6 +37,17 @@ To enable automatic updates set `Update Repository` to `true` in the config. You
 git -C custom_nodes\vanHeemstraSystems pull
 ```
 
+## NX Monorepo Nodes
+Name | Description
+:--- | :---
+NXMonorepo&nbsp;Foo | ... .
+NXMonorepo&nbsp;Bar | ... .
+
+## Code 2 Prompt Nodes
+Name | Description
+:--- | :---
+Code2Prompt&nbsp;Foo | ... .
+Code2Prompt&nbsp;Bar | ... .
 
 ## Aesthetic Nodes
 Name | Description

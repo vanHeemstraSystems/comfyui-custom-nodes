@@ -15,26 +15,26 @@ See [README.md](./200/README.md)
 # Custom nodes for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 
 ## Disclaimer
-Please note that this repository is now archived and will no longer be maintained or updated.  
-IF has a lot of issues and I'm no longer interested in dealing with it. Most of the other nodes have either already been added to ComfyUI in some form or exist somewhere else. I will move the aesthetic nodes to a separate repository at some point.
+~~Please note that this repository is now archived and will no longer be maintained or updated.  
+IF has a lot of issues and I'm no longer interested in dealing with it. Most of the other nodes have either already been added to ComfyUI in some form or exist somewhere else. I will move the aesthetic nodes to a separate repository at some point.~~
 
 ## Installation
 Clone the repository to `custom_nodes` in your ComfyUI directory:
 ```
-git clone https://github.com/Zuellni/ComfyUI-Custom-Nodes custom_nodes\Zuellni
+git clone https://github.com/vanHeemstraSystems/comfyui-custom-nodes custom_nodes\vanHeemstraSystems
 ```
 
 A `config.json` file will be created on first run in the extension's directory.  
 Requirements should be installed automatically but if that doesn't happen you can install them with:
 ```
-pip install -r custom_nodes\Zuellni\requirements.txt
+pip install -r custom_nodes\vanHeemstraSystems\requirements.txt
 ```
 You can skip the installation if you don't wish to use the `IF` nodes.  
 Run ComfyUI once, wait till the config file gets created, then quit and set `IF` to `false` under `Load Nodes` in `config.json`.
 
 To enable automatic updates set `Update Repository` to `true` in the config. You can also update with:
 ```
-git -C custom_nodes\Zuellni pull
+git -C custom_nodes\vanHeemstraSystems pull
 ```
 
 
